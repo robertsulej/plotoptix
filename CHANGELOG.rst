@@ -1,6 +1,16 @@
 Release history
 ===============
 
+`v0.18.4` - unreleased
+----------------------
+
+Changed
+~~~~~~~
+
+- Reworked heuristics for the noise-balanced ray sampling.
+- `NoiseBalanced` work distribution mode is now alias to `AbsNoiseBalanced` since it turns more often practical in terms of visual result
+  and stable compute time.
+
 `v0.18.3` - 2025-01-03
 ----------------------
 
